@@ -5,10 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ArchIndia Builders</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    />
     <style>
       html {
         scroll-behavior: smooth;
@@ -47,7 +43,7 @@
         >
           <!-- Hamburger Menu -->
           <div class="flex">
-            <div class="lg:hidden mt-0.5">
+            <div class="lg:hidden mt-1.5">
               <button id="hamburger-menu" class="text-black">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -65,12 +61,13 @@
                 </svg>
               </button>
             </div>
-
-            <h1
-              class="text-2xl text-white lg:text-2xl pl-3 lg:mt-0.5 w-full font-bold"
-            >
-              ARCHINDIA BUILDERS
-            </h1>
+            <div class="flex items-center pl-5 space-x-3">
+              <img src="logo.png" alt="ArchIndia Builders Logo" class="h-10 w-10">
+              <h1 class="text-lg md:text-2xl text-white pl-3 lg:mt-0.5 w-full font-bold">
+                ARCHINDIA BUILDERS
+              </h1>
+            </div>
+            
           </div>
 
           <!-- Logo and Navigation -->
@@ -109,59 +106,65 @@
         >
           <!-- Learn More Button -->
           <a
-            href="#projects"
+          href="#projects"
             class="bg-white text-black px-6 py-2 text-sm sm:text-lg rounded-full shadow-lg hover:shadow-xl transition duration-300"
           >
             Our Projects
-          </a>
-          <!-- Content Below Arrows -->
-          <p class="mt-4 text-sm sm:text-base lg:text-lg text-gray-300">
-            Providing expert guidance and innovative solutions for buying,
-            <br class="hidden sm:block" />
-            selling, and investing in prime properties with exceptional service.
-          </p>
+      </a>
+            <!-- Content Below Arrows -->
+            <p class="mt-4 text-sm sm:text-base lg:text-lg text-gray-300">
+              Providing expert guidance and innovative solutions for buying,
+              <br class="hidden sm:block" />
+              selling, and investing in prime properties with exceptional
+              service.
+            </p>
+          </div>
         </div>
-      </div>
 
-      <!-- Mobile Menu -->
-      <div
-        id="mobile-menu"
-        class="fixed inset-y-0 left-0 w-64 bg-black bg-opacity-90 p-6 transform -translate-x-full transition-transform duration-300 z-50"
-      >
-        <!-- Close Button -->
-        <button
-          id="close-menu"
-          class="absolute top-4 right-4 text-white hover:text-gray-300"
+        <!-- Mobile Menu -->
+        <div
+          id="mobile-menu"
+          class="fixed inset-y-0 left-0 w-64 bg-black bg-opacity-90 p-6 transform -translate-x-full transition-transform duration-300 z-50"
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            class="w-6 h-6"
+          <!-- Close Button -->
+          <button
+            id="close-menu"
+            class="absolute top-4 right-4 text-white hover:text-gray-300"
           >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M6 18L18 6M6 6l12 12"
-            />
-          </svg>
-        </button>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
 
-        <!-- Menu Links -->
-        <a href="#" class="block text-white hover:underline mb-4">Home</a>
-        <a href="#discover" class="block text-white hover:underline mb-4"
-          >Discover</a
-        >
-        <a href="#projects" class="block text-white hover:underline mb-4"
-          >Projects</a
-        >
-        <a href="#about" class="block text-white hover:underline mb-4">About</a>
-        <a href="#vision" class="block text-white hover:underline mb-4"
-          >Vision</a
-        >
-        <a href="#contact" class="block text-white hover:underline">Contact</a>
+          <!-- Menu Links -->
+          <a href="#" class="block text-white hover:underline mb-4">Home</a>
+          <a href="#discover" class="block text-white hover:underline mb-4"
+            >Discover</a
+          >
+          <a href="#projects" class="block text-white hover:underline mb-4"
+            >Projects</a
+          >
+          <a href="#about" class="block text-white hover:underline mb-4"
+            >About</a
+          >
+          <a href="#vision" class="block text-white hover:underline mb-4"
+            >Vision</a
+          >
+          <a href="#contact" class="block text-white hover:underline"
+            >Contact</a
+          >
+        </div>
       </div>
     </section>
 
@@ -185,10 +188,7 @@
           <!-- Description Text Block -->
           <div class="w-full sm:w-[28%] mt-4 sm:mt-0 sm:ml-6 p-3">
             <p class="text-sm sm:text-md text-gray-600">
-              Discover ARCH INDIA BUILDERS, your trusted partner since 1995,
-              specializing in building construction, innovative designs, and
-              comprehensive interior and exterior solutions tailored to your
-              needs.
+              Discover ARCH INDIA BUILDERS, your trusted partner since 1995, specializing in building construction, innovative designs, and comprehensive interior and exterior solutions tailored to your needs.
             </p>
           </div>
         </div>
@@ -201,13 +201,13 @@
           class="card bg-white overflow-hidden flex flex-col h-full rounded-lg shadow-md transform transition-transform duration-300 hover:scale-110"
         >
           <img
-            src="/img3.jpg"
+            src="/img6.jpg"
             alt="Elite Estate Advisors"
             class="w-full h-64 sm:h-72 lg:h-96 object-fit"
           />
           <div class="p-4">
             <h3 class="text-base sm:text-lg font-semibold text-gray-800">
-              Elite Estate Advisors
+              Redhills, Chennai
             </h3>
           </div>
         </div>
@@ -217,13 +217,13 @@
           class="card bg-white overflow-hidden flex flex-col h-full rounded-lg shadow-md transform transition-transform duration-300 hover:scale-110"
         >
           <img
-            src="/img2.avif"
+            src="/img2.jpg"
             alt="Skyline Realty Group"
             class="w-full h-64 sm:h-72 lg:h-96 object-cover"
           />
           <div class="p-4 flex-1">
             <h3 class="text-base sm:text-lg font-semibold text-gray-800">
-              Skyline Realty Group
+              Chrompet, Chennai
             </h3>
           </div>
         </div>
@@ -233,13 +233,13 @@
           class="card bg-white overflow-hidden flex flex-col h-full rounded-lg shadow-md transform transition-transform duration-300 hover:scale-110"
         >
           <img
-            src="/img3.avif"
+            src="/img4.jpg"
             alt="Skyline Realty Group"
             class="w-full h-64 sm:h-72 lg:h-96 object-cover"
           />
           <div class="p-4">
             <h3 class="text-base sm:text-lg font-semibold text-gray-800">
-              Skyline Realty Group
+              Tambaram, Chennai
             </h3>
           </div>
         </div>
@@ -249,13 +249,13 @@
           class="card bg-white overflow-hidden flex flex-col h-full rounded-lg shadow-md transform transition-transform duration-300 hover:scale-110"
         >
           <img
-            src="/img1.webp"
+            src="/img5.jpg"
             alt="Vista Luxe Realty"
             class="w-full h-64 sm:h-72 lg:h-96 object-cover"
           />
           <div class="p-4">
             <h3 class="text-base sm:text-lg font-semibold text-gray-800">
-              Vista Luxe Realty
+              Porur, Chennai
             </h3>
           </div>
         </div>
@@ -283,63 +283,58 @@
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-12 p-4">
         <div class="p-4 card-scale">
           <img
-            src="/img3.jpg"
+            src="/img6.jpg"
             alt="Skyline Residences"
             class="rounded-lg shadow-md h-[300px] md:h-[600px] lg:h-[550px] w-full object-fit"
           />
           <h2 class="mt-4 text-2xl font-semibold">2024</h2>
-          <h3 class="text-lg font-medium text-gray-800">
-            Elite Estate Advisors
-          </h3>
+          <h3 class="text-lg font-medium text-gray-800">Villa in Redhills, Chennai</h3>
           <p class="mt-2 text-gray-600">
             Luxury high-rise apartments with panoramic views, modern amenities,
             and a prime downtown location.
           </p>
         </div>
-
+      
         <!-- Smaller Project Cards -->
-        <div class="p-4">
+        <div class=" p-4">
           <img
-            src="/img1.webp"
+            src="/img2.jpg"
             alt="Villa in Seminyak"
             class="rounded-lg shadow-md h-[300px] md:h-[600px] lg:h-[550px] w-full object-fit"
           />
           <h2 class="mt-4 text-lg font-semibold">2023</h2>
-          <h3 class="text-md font-medium text-gray-800">Villa in Seminyak</h3>
+          <h3 class="text-md font-medium text-gray-800">Villa in Chrompet, Chennai</h3>
           <p class="mt-2 text-gray-600">
-            Luxury high-rise apartments with panoramic views, modern amenities,
-            and a prime downtown location.
+            Experience luxurious high-rise living with breathtaking panoramic views, world-class amenities, and an unbeatable downtown location.
           </p>
         </div>
-
-        <div class="p-4">
+      
+        <div class=" p-4">
           <img
-            src="/img2.avif"
+            src="/img4.jpg"
             alt="Villa in Seminyak"
             class="rounded-lg shadow-md h-[300px] md:h-[600px] lg:h-[550px] w-full object-fit"
           />
           <h2 class="mt-4 text-lg font-semibold">2022</h2>
-          <h3 class="text-md font-medium text-gray-800">Villa in Seminyak</h3>
+          <h3 class="text-md font-medium text-gray-800">Villa in Tambaram, Chennai</h3>
           <p class="mt-2 text-gray-600">
-            Luxury high-rise apartments with panoramic views, modern amenities,
-            and a prime downtown location.
+            Elevate your lifestyle with luxury villas offering stunning panoramic views, premium amenities, and a prestigious downtown address
           </p>
         </div>
-
-        <div class="p-4">
+      
+        <div class=" p-4">
           <img
-            src="/img3.avif"
+            src="/img5.jpg"
             alt="Villa in Seminyak"
             class="rounded-lg shadow-md h-[300px] md:h-[600px] lg:h-[550px] w-full object-fit"
           />
           <h2 class="mt-4 text-lg font-semibold">2020</h2>
-          <h3 class="text-md font-medium text-gray-800">Villa in Seminyak</h3>
+          <h3 class="text-md font-medium text-gray-800">Villa in Porur, Chennai</h3>
           <p class="mt-2 text-gray-600">
-            Luxury high-rise apartments with panoramic views, modern amenities,
-            and a prime downtown location.
+            Discover sophisticated high-rise living with breathtaking views, state-of-the-art amenities, and a prime downtown location.
           </p>
         </div>
-      </div>
+      </div>      
     </section>
 
     <!-- About Us Section -->
@@ -349,28 +344,18 @@
           <span class="border-l-4 border-black pl-2">About us</span>
         </h1>
         <p class="my-12 text-sm sm:text-base text-gray-600">
-          Welcome to ARCH INDIA BUILDERS! Since 1995, we have been a trusted
-          leader in the construction and design industry, transforming visions
-          into reality for over three decades. Our dedication to quality,
-          innovation, and precision has enabled us to deliver exceptional
-          services across a wide range of expertise, including building
-          construction, interior and exterior design, architecture, and
-          consultancy. Whether it's crafting durable structures, creating
-          stunning elevations, or offering cutting-edge 3D designs, our
-          commitment to excellence ensures spaces that are both functional and
-          visually captivating.
-        </p>
+          Welcome to ARCH INDIA BUILDERS! Since 1995, we have been a trusted leader in the construction and design industry, transforming visions into reality for over three decades. 
+      Our dedication to quality, innovation, and precision has enabled us to deliver exceptional services across a wide range of expertise, including building construction, interior and exterior design, architecture, and consultancy.  
+      Whether it's crafting durable structures, creating stunning elevations, or offering cutting-edge 3D designs, our commitment to excellence ensures spaces that are both functional and visually captivating.        </p>
       </div>
       <!-- Image Section -->
       <div class="relative w-full">
-        <img src="/img5.webp" alt="Modern house" class="rounded-lg shadow-lg" />
+        <img src="/img9.jpg" alt="Modern house" class="rounded-lg shadow-lg" />
       </div>
 
       <!-- Footer Text -->
       <div class="text-center mt-6 text-sm sm:text-base text-gray-600">
-        Partner with ARCH INDIA BUILDERS to bring your dream spaces to life. Let
-        us guide you every step of the way with unparalleled expertise and
-        dedication.
+        Partner with ARCH INDIA BUILDERS to bring your dream spaces to life. Let us guide you every step of the way with unparalleled expertise and dedication.
       </div>
     </section>
 
@@ -382,220 +367,112 @@
         </h1>
         <p class="my-12 text-sm sm:text-base text-gray-600">
           Discover what we offer to make your life easier.
-        </p>
+         </p>
       </div>
-      <div
-        class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto"
-      >
+      <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
         <!-- Service 1: Architecture Service -->
-        <div
-          class="bg-white border rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:bg-yellow-300"
-        >
-          <img
-            src="/architectureDesign.jpeg"
-            alt="Architecture Service"
-            class="p-3 w-full h-72 object-fit"
-          />
-          <div class="p-4 text-center">
-            <h3 class="text-xl font-semibold text-gray-800">
-              Architecture Service
-            </h3>
-            <p class="text-gray-600 mt-2">
-              We connect, create, and design concepts that align with your
-              experiences.
-            </p>
-          </div>
+        <div class="bg-white border rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:bg-yellow-300">
+            <img src="/architectureDesign.jpeg" alt="Architecture Service" class="p-3 w-full h-72 object-fit">
+            <div class="p-4 text-center">
+                <h3 class="text-xl font-semibold text-gray-800">Architecture Service</h3>
+                <p class="text-gray-600 mt-2">We connect, create, and design concepts that align with your experiences.</p>
+            </div>
         </div>
 
         <!-- Service 2: Building Contracts -->
-        <div
-          class="bg-white border rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:bg-yellow-300"
-        >
-          <img
-            src="/buildingContract.webp"
-            alt="Building Contracts"
-            class="p-3 w-full h-72 object-fit"
-          />
-          <div class="p-4 text-center">
-            <h3 class="text-xl font-semibold text-gray-800">
-              Building Contracts
-            </h3>
-            <p class="text-gray-600 mt-2">
-              We deliver excellence and commitment in construction projects.
-            </p>
-          </div>
+        <div class="bg-white border rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:bg-yellow-300">
+            <img src="/buildingContract.webp" alt="Building Contracts" class="p-3 w-full h-72 object-fit">
+            <div class="p-4 text-center">
+                <h3 class="text-xl font-semibold text-gray-800">Building Contracts</h3>
+                <p class="text-gray-600 mt-2">We deliver excellence and commitment in construction projects.</p>
+            </div>
         </div>
 
         <!-- Service 3: Interior Design -->
-        <div
-          class="bg-white border rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:bg-yellow-300"
-        >
-          <img
-            src="/interiorDesign.jpg"
-            alt="Interior Design"
-            class="p-3 w-full h-72 object-fit"
-          />
-          <div class="p-4 text-center">
-            <h3 class="text-xl font-semibold text-gray-800">Interior Design</h3>
-            <p class="text-gray-700 mt-2">
-              We create elegant and luxurious interiors with high-quality
-              materials.
-            </p>
-          </div>
+        <div class="bg-white border rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:bg-yellow-300">
+            <img src="/interiorDesign.jpg" alt="Interior Design" class="p-3 w-full h-72 object-fit">
+            <div class="p-4 text-center">
+                <h3 class="text-xl font-semibold text-gray-800">Interior Design</h3>
+                <p class="text-gray-700 mt-2">We create elegant and luxurious interiors with high-quality materials.</p>
+            </div>
         </div>
 
         <!-- Service 4: Consultant -->
-        <div
-          class="bg-white border rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:bg-yellow-300"
-        >
-          <img
-            src="/consultant.webp"
-            alt="Consultant"
-            class="p-3 w-full h-72 object-fit"
-          />
-          <div class="p-4 text-center">
-            <h3 class="text-xl font-semibold text-gray-800">Consultant</h3>
-            <p class="text-gray-600 mt-2">
-              We provide expert consulting for all your construction and design
-              needs.
-            </p>
-          </div>
+        <div class="bg-white border rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:bg-yellow-300">
+            <img src="/consultant.webp" alt="Consultant" class="p-3 w-full h-72 object-fit">
+            <div class="p-4 text-center">
+                <h3 class="text-xl font-semibold text-gray-800">Consultant</h3>
+                <p class="text-gray-600 mt-2">We provide expert consulting for all your construction and design needs.</p>
+            </div>
         </div>
 
         <!-- Service 5: Elevation -->
-        <div
-          class="bg-white border rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:bg-yellow-300"
-        >
-          <img
-            src="/elevation.jpg"
-            alt="Elevation"
-            class="p-3 w-full h-72 object-fit"
-          />
+        <div class="bg-white border rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:bg-yellow-300">
+          <img src="/elevation.jpg" alt="Elevation" class="p-3 w-full h-72 object-fit">
           <div class="p-4 text-center">
-            <h3 class="text-xl font-semibold text-gray-800">Elevation</h3>
-            <p class="text-gray-600 mt-2">
-              Modern and aesthetic elevation designs for all types of buildings.
-            </p>
+              <h3 class="text-xl font-semibold text-gray-800">Elevation</h3>
+              <p class="text-gray-600 mt-2">Modern and aesthetic elevation designs for all types of buildings.</p>
           </div>
-        </div>
+      </div>
 
-        <!-- Service 6: CAAD Works -->
-        <div
-          class="bg-white border rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:bg-yellow-300"
-        >
-          <img
-            src="/caad.webp"
-            alt="CAAD Works"
-            class="p-3 w-full h-72 object-fit"
-          />
-          <div class="p-4 text-center">
+      <!-- Service 6: CAAD Works -->
+      <div class="bg-white border rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:bg-yellow-300">
+        <img src="/caad-works.webp" alt="CAAD Works" class="p-3 w-full h-72 object-fit">
+        <div class="p-4 text-center">
             <h3 class="text-xl font-semibold text-gray-800">CAAD Works</h3>
-            <p class="text-gray-600 mt-2">
-              Expert CAD drafting and designing for architectural projects.
-            </p>
-          </div>
-        </div>
-
-        <!-- Service 7: Plumbing Work -->
-        <div
-          class="bg-white border rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:bg-yellow-300"
-        >
-          <img
-            src="/Plumbers.jpg"
-            alt="Plumbing Work"
-            class="p-3 w-full h-72 object-fit"
-          />
-          <div class="p-4 text-center">
-            <h3 class="text-xl font-semibold text-gray-800">Plumbing Work</h3>
-            <p class="text-gray-600 mt-2">
-              Professional plumbing services ensuring durability and efficiency.
-            </p>
-          </div>
-        </div>
-
-        <!-- Service 8: Carpentry Work -->
-        <div
-          class="bg-white border rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:bg-yellow-300"
-        >
-          <img
-            src="/carpenter.webp"
-            alt="Carpentry Work"
-            class="p-3 w-full h-72 object-cofitver"
-          />
-          <div class="p-4 text-center">
-            <h3 class="text-xl font-semibold text-gray-800">Carpentry Work</h3>
-            <p class="text-gray-600 mt-2">
-              Custom carpentry solutions tailored to your needs.
-            </p>
-          </div>
-        </div>
-
-        <!-- Service 9: Electrical Work -->
-        <div
-          class="bg-white border rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:bg-yellow-300"
-        >
-          <img
-            src="/electrical.webp"
-            alt="Electrical Work"
-            class="p-3 w-full h-72 object-fit"
-          />
-          <div class="p-4 text-center">
-            <h3 class="text-xl font-semibold text-gray-800">Electrical Work</h3>
-            <p class="text-gray-600 mt-2">
-              Safe and efficient electrical installations for all buildings.
-            </p>
-          </div>
+            <p class="text-gray-600 mt-2">Expert CAD drafting and designing for architectural projects.</p>
         </div>
       </div>
+
+    <!-- Service 7: Plumbing Work -->
+    <div class="bg-white border rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:bg-yellow-300">
+      <img src="/plumbing-work.webp" alt="Plumbing Work" class="p-3 w-full h-72 object-fit">
+      <div class="p-4 text-center">
+          <h3 class="text-xl font-semibold text-gray-800">Plumbing Work</h3>
+          <p class="text-gray-600 mt-2">Professional plumbing services ensuring durability and efficiency.</p>
+      </div>
+    </div>
+
+     <!-- Service 8: Carpentry Work -->
+     <div class="bg-white border rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:bg-yellow-300">
+      <img src="/carpentry-work.webp" alt="Carpentry Work" class="p-3 w-full h-72 object-cofitver">
+      <div class="p-4 text-center">
+          <h3 class="text-xl font-semibold text-gray-800">Carpentry Work</h3>
+          <p class="text-gray-600 mt-2">Custom carpentry solutions tailored to your needs.</p>
+      </div>
+    </div>
+
+    <!-- Service 9: Electrical Work -->
+    <div class="bg-white border rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:bg-yellow-300">
+      <img src="/electrical-work.webp" alt="Electrical Work" class="p-3 w-full h-72 object-fit">
+      <div class="p-4 text-center">
+          <h3 class="text-xl font-semibold text-gray-800">Electrical Work</h3>
+          <p class="text-gray-600 mt-2">Safe and efficient electrical installations for all buildings.</p>
+      </div>
+    </div>
+
+    </div>
     </section>
 
     <!-- Contact -->
     <section id="contact" class="max-w-7xl mx-auto px-6 py-12">
-      <div class="text-start mb-12">
-        <h1 class="text-5xl font-bold tracking-tight">
-          <span class="border-l-4 border-black pl-2">Contact Us</span>
-        </h1>
-        <p class="my-12 text-sm sm:text-base text-gray-600">
-          Get in touch with us for inquiries, support, or collaboration
-          opportunities.
-        </p>
-      </div>
       <hr />
 
       <div
-        class="flex flex-col lg:flex-row justify-between items-center lg:items-center gap-6 lg:gap-12 mt-9"
+        class="flex flex-col lg:flex-row justify-between items-center lg:items-start gap-6 lg:gap-0 mt-9"
       >
-        <!-- Map Section -->
-        <div class="w-full lg:w-1/3 h-64 lg:h-64">
-          <iframe
-            class="w-full h-full rounded-lg shadow-md"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.635783339759!2d80.21428927481467!3d13.086360287242588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5264332eb4817d%3A0x832c84f93efb3f59!2sAnna%20Nagar%20East%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1706627912345!5m2!1sen!2sin"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
-
-        <!-- Address Section - Centered -->
-        <div class="w-full lg:w-1/3 text-center flex flex-col items-center">
-          <p class="text-2xl font-medium flex items-center gap-2">
-            <i class="fa-solid fa-location-dot"></i>
-            Location
-          </p>
-          <hr />
-          <br />
+        <!-- Left Section -->
+        <div class="text-center">
           <p class="text-lg text-gray-800 font-medium">
-            No: 72G/1, 21st St, L Block, Annanagar East, Chennai, Tamil Nadu
-            600102
-          </p>
+            No: 72G/1, 21st St, L Block, Annanagar East, Chennai, Tamil Nadu 600102          </p>
           <p class="text-lg text-gray-600 mt-2 font-medium">
-            +91 98410 71421 <br />
+            +91 98410 71421 <br>
             +91 98847 09489
           </p>
         </div>
 
-        <!-- Contact Section -->
-        <div class="w-full lg:w-1/3 text-center lg:text-right">
+        <!-- Right Section -->
+        <div class="text-center lg:text-right">
           <p class="text-lg text-gray-800 font-medium">Get in Touch</p>
           <p class="text-2xl text-gray-800 font-semibold mt-2">
             archindia1@gmail.com
